@@ -1,0 +1,21 @@
+a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navbar {
+    background: #03bfcc;
+    padding: 20px;
+    color: white;
+    text-align: end;
+
+  }
+  
+  .active {
+    
+    font-weight: bold;
+  }
+  .inactive {
+    
+    font-weight: bold;
+  }

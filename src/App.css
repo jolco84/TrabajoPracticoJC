@@ -1,0 +1,117 @@
+.carrito {
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  text-align: start;
+ 
+  margin: 30px;
+  font-size: medium;
+  border-radius: 15px 5px 5px 25px/5px 25px 25px 5px
+
+}
+
+.carro {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: flex-start;
+  margin: 30px;
+  border-radius: 15px 5px 5px 25px/5px 25px 25px 5px
+}
+.imgCarro{
+  width: 100px;
+  margin: 10px;
+  border-radius: 15px 5px 5px 25px/5px 25px 25px 5px
+}
+p{
+  margin: 10px;
+}
+
+span{
+  margin: 10px;
+}
+.item{
+  display: flex;
+  margin: 10px;
+  padding: 5px;
+  align-items: center;
+}
+
+.monto{
+  display: flex;
+  margin: 10px;
+  padding: 5px;
+  margin-left: 200px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.btnPagar{
+  width: 100px;
+  margin: 10px;
+}
+
+.aumentar{
+  margin-left: 10px;
+}
+
+.detallePizza {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+  font-size: medium;
+}
+
+.descPizza {
+  display: flex;
+  border: 1px solid black;
+  width: 80%;
+  margin: 2px;
+  align-content: center;
+
+}
+
+.foto>img {
+  width: 100%;
+}
+
+.desc {
+  margin: 5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header{
+  position: relative;
+  text-align: center;
+}
+.imgHeader {
+  opacity: 0.5;
+  width: 100%;
+  height: 100px;
+  border-radius: 255px 25px 225px 25px/25px 225px 25px 255px
+}
+.titleHeader{
+  position: absolute;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  top: 10px;
+  left: 220px;
+}
+
+.subTitleHeader{
+  position: absolute;
+  top: 60px;
+  left: 240px;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 600;
+  color: white;
+  
+}
